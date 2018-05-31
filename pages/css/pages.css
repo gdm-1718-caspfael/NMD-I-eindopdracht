@@ -9,10 +9,339 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/backround.png);
+    background-attachment: fixed;
+    
 }
 
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
+/*introductie*/
+a{ 
+    text-decoration: none;
+}
+.styleguide {
+    display: flex;
+    flex-direction: column;
+}
 
-/* Voeg jouw css hieraan toe */
+h1 {
+    align-self: center;
+    font-size: 50px;
+
+}
+
+h3 {
+    margin: 60px 0;
+    font-size: 30px;
+    align-self: center;
+    color: rgb(82, 55, 97);
+    padding: 15px;
+    text-decoration-line: underline;
+
+}
+
+h4 {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    align-self: center;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.596);
+
+}
+/*Concurrentie Analyse */
+.concurrentie{
+    margin: 10px 300px 20px 150px;
+    
+} 
+
+.concurrent{
+    padding: 15px;
+    border: solid;
+    border-radius: 15px;
+    transition: 0.5s;
+    margin: 60px 0;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: center;
+    color: rgb(82, 55, 97);
+    background-color: transparent;
+}
+
+.concurrent:hover {
+    color:firebrick;
+    border: solid;
+    border-radius: 50px;
+
+}
+/*Scenario's*/
+.scenarios{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.scenario{
+    width: 40%;
+    margin: 10px;
+}
+
+
+
+
+/*Digital Styleguide*/
+.openSans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    
+}
+
+.fonts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.regular{
+    font-family: 'Open Sans';
+    font-size: 15pt;
+}
+
+.light{
+    font-family: 'Open Sans';
+    font-size: 15pt;
+    font-weight: lighter;
+}
+
+.semiBold{
+    font-family: 'Open Sans';
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.bold{
+    font-family: 'Open Sans';
+    font-size: 15pt;
+    font-weight: bold;  
+}
+
+.broods{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.brood{
+font-family: 'Open Sans';
+font-size: 22pt;
+font-weight: lighter;
+line-height: 30px;
+width: 40%;
+align-self: center;
+}
+
+
+
+.description{
+width: 400px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    
+}
+.dragonroot{
+    width: 600px;
+    height: 650px;
+}
+
+.colourItem{
+    margin: 20px;
+}
+.colours{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 10%;
+
+}
+
+.colorSet {
+    margin: 10px;
+    
+}
+
+.color{
+    width: 128px;
+    height: 128px;
+    border: 1px solid black;
+    
+}
+
+.color1{
+    background-color: #A8EEF8;
+}
+
+.color2{
+    background-color: #64A6AE;
+}
+
+.color3{
+    background-color: #73A097;
+}
+
+.color4{
+    background-color: #008F9E;
+}
+
+.color5{
+    background-color: #52B9CE;
+}
+
+.color6{
+    background-color: #2D1E35;
+}
+
+.color7{
+    background-color: #FFF3BC;
+}
+
+.colorDescription{
+    width: 150px;
+}
+
+.navigaties{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navigatie{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    
+}
+
+.mainNavigatie{
+    
+    font-family: 'Open Sans';
+    color: white;
+    text-shadow:5px 3px #73A097 ;
+    font-weight:  900;
+    font-size: 40pt;
+    align-self: center;
+    
+}
+
+.whiteText{
+    color: white;
+}
+.whiteText:hover {
+    color: #FFF3BC;
+    transition: 0.5s;
+}
+
+.secNavigatie{
+    align-self: center;
+    font-family: 'Open Sans';
+    font-size: 30pt;
+    font-weight: lighter;
+    padding: 10px;
+    
+}
+
+.blackText:hover {
+    font-weight: normal;
+    transition: 0.3s;
+}
+.titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 10%;
+    
+}
+
+.title{
+    font-family: 'Open Sans';
+    align-self: center;
+    font-size: 75pt;
+    font-weight: 450;
+    width: 700px;
+    text-shadow: 3px 3px rgba(175, 174, 174, 0.486);
+}
+
+.subtitle {
+    font-family: 'Open Sans';
+    align-self: center;
+    font-size: 35pt;
+    width: 700px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+    
+}
+.recbutton{
+    width: 700px;
+    align-self: center;
+}
+.recButton {
+    align-self: center;
+    font-family:'Open Sans';
+    font-size:22pt;
+    color: white;
+    width: 240px;
+    height: 75px;
+    border-radius: 16px;
+    background-color: black;
+    transition: 0.5s ;
+    border: none;
+}
+
+.recButton:hover {
+border-radius: 50px;
+
+}
+.sbutton{ width: 700px;
+align-self: center;}
+.squareButton {
+color: white;
+width: 85px;
+height: 85px;
+background-color: black;
+transition: 0.5s;
+border: none;
+align-self: center;
+}
+
+.squareButton:hover {
+border-radius: 50px;
+}
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+.put{width: 700px;
+    align-self: center}
+.input {
+    background-color: rgba(115, 160, 151, 0.438);
+    border-radius: 5px;
+    border: none;
+    align-self: center;
+}
