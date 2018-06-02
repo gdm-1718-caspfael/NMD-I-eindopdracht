@@ -21,9 +21,37 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 /*introductie*/
+.intro {
+    margin: 3% 15%;
+}
+
+.xd{
+    padding: 15px;
+    border: solid;
+    border-radius: 15px;
+    transition: 0.5s;
+    margin: 60px 0;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: center;
+    color: rgb(82, 55, 97);
+    background-color: transparent;
+    margin: 20px;
+}
+
+.xd:hover {
+    color:firebrick;
+    border: solid;
+    border-radius: 50px;
+
+}
+
 a{ 
     text-decoration: none;
+    color: rgb(82, 55, 97);
+    
 }
+
 .styleguide {
     display: flex;
     flex-direction: column;
@@ -231,6 +259,7 @@ width: 400px;
     display: flex;
     flex-direction: row;
     width: 700px;
+    flex-wrap: nowrap;
     
 }
 
@@ -242,6 +271,7 @@ width: 400px;
     font-weight:  900;
     font-size: 40pt;
     align-self: center;
+    flex-wrap: nowrap;
     
 }
 
@@ -271,7 +301,7 @@ width: 400px;
     flex-direction: row;
     justify-content: space-around;
     margin: 0 10%;
-    
+    flex-wrap: nowrap;
 }
 
 .title{
@@ -281,6 +311,7 @@ width: 400px;
     font-weight: 450;
     width: 700px;
     text-shadow: 3px 3px rgba(175, 174, 174, 0.486);
+    flex-wrap: nowrap;
 }
 
 .subtitle {
